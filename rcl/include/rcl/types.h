@@ -93,4 +93,7 @@ typedef rmw_ret_t rcl_ret_t;
 /// Expected one type of lexeme but got another
 #define RCL_RET_WRONG_LEXEME 1002
 
+/// typedef for rmw_message_raw_t;
+typedef rmw_message_raw_t rcl_message_raw_t;
+
 #endif  // RCL__TYPES_H_
